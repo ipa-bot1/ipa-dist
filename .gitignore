@@ -1,0 +1,13 @@
+# This is the PUBLIC distribution repo. It must NEVER contain secrets.
+# Signed IPAs and manifests are uploaded as GitHub Release assets, not committed here.
+*.p12
+*.p8
+*.pem
+*.cer
+*.key
+*.mobileprovision
+*.ipa
+.env
+.env.*
+.DS_Store
+node_modules/
